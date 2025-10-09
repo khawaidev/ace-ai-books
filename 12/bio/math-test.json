@@ -1,0 +1,70 @@
+{
+  "filename": "lemh101.pdf",
+  "total_pages": 17,
+  "title": "Chapter 1: Relations and Functions",
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "There is no permanent place in the world for ugly mathematics ... . It may\nbe very hard to define mathematical beauty but that is just as true of\nbeauty of any kind, we may not know quite what we mean by a\nbeautiful poem, but that does not prevent us from recognising\none when we read it. — G. H. HARDY v\n\n1.1  Introduction\nRecall that the notion of relations and functions, domain,\nco-domain and range have been introduced in Class XI\nalong with different types of specific real valued functions\nand their graphs. The concept of the term ‘relation’ in\nmathematics has been drawn from the meaning of relation\nin English language, according to which two objects or\nquantities are related if there is a recognisable connection\nor link between the two objects or quantities. Let  A be\nthe set of students of Class XII of a school and B be the\nset of students of Class XI of the same school. Then some\nof the examples of relations from A to B are\n(i)\n{(a, b) ∈A × B: a is brother of b},\n(ii)\n{(a, b) ∈A × B: a is sister of b},\n(iii)\n{(a, b) ∈A × B: age of a is greater than age of b},\n(iv)\n{(a, b) ∈A × B: total marks obtained by a in the final examination is less than\nthe total marks obtained by b in the final examination},\n(v)\n{(a, b) ∈ A × B: a lives in the same locality as b}.  However, abstracting from\nthis, we define mathematically a relation R from A to B as an arbitrary subset\nof A × B.\nIf (a, b) ∈ R, we say that a is related to b under the relation R and we write as\na R b. In general, (a, b) ∈ R, we do not bother whether there is a recognisable\nconnection or link between a and b. As seen in Class XI, functions are special kind of\nrelations.\nIn this chapter, we will study different types of relations and functions, composition\nof functions, invertible functions and binary operations.\n\nChapter 1\n\nRELATIONS AND FUNCTIONS\n\nLejeune Dirichlet\n (1805-1859)\n\nReprint 2025-26",
+      "definitions": [],
+      "examples": [],
+      "questions": [],
+      "figures": [
+        {
+          "name": "Portrait of Lejeune Dirichlet",
+          "description": "A black and white portrait of mathematician Lejeune Dirichlet (1805-1859), shown from the shoulders up, facing slightly to the side."
+        }
+      ]
+    },
+    {
+      "page_number": 2,
+      "text": "MATHEMATICS\n2\n\n1.2  Types of Relations\n\nIn this section, we would like to study different types of relations. We know that a\nrelation in a set A is a subset of A × A. Thus, the empty set φ and A × A are two\nextreme relations. For illustration, consider a relation R in the set A = {1, 2, 3, 4} given by\nR = {(a, b): a – b = 10}. This is the empty set, as no pair (a, b) satisfies the condition\na – b = 10. Similarly, R′ = {(a, b) : | a – b | ≥ 0} is the whole set A × A, as all pairs\n(a, b) in A × A satisfy | a – b | ≥ 0. These two extreme examples lead us to the\nfollowing definitions.\n\nDefinition 1 A relation R in a set A is called empty relation, if no element of A is\nrelated to any element of A, i.e., R = φ ⊂ A × A.\n\nDefinition 2  A relation R in a set A is called universal relation, if each element of A\nis related to every element of A, i.e., R = A × A.\n\nBoth the empty relation and the universal relation are some times called trivial\nrelations.\n\nExample 1 Let A be the set of all students of a boys school. Show that the relation R\nin A given by R = {(a, b) : a is sister of b} is the empty relation and R′ = {(a, b) : the\ndifference between heights of a and b is less than 3 meters} is the universal relation.\n\nSolution Since the school is boys school, no student of the school can be sister of any\nstudent of the school. Hence, R = φ, showing that R is the empty relation. It is also\nobvious that the difference between heights of any two students of the school has to be\nless than 3 meters. This shows that R′ = A × A is the universal relation.\n\nRemark In Class XI, we have seen two ways of representing a relation, namely raster\nmethod and set builder method. However, a relation R in the set {1, 2, 3, 4} defined by R\n= {(a, b) : b = a + 1} is also expressed as a R b if and only if\nb = a + 1 by many authors. We may also use this notation, as and when convenient.\n\nIf (a, b) ∈ R, we say that a is related to b and we denote it as a R b.\n\nOne of the most important relation, which plays a significant role in Mathematics,\nis an equivalence relation. To study equivalence relation, we first consider three\ntypes of relations, namely reflexive, symmetric and transitive.\n\nDefinition 3 A relation R in a set A is called\n\n(i)\nreflexive, if (a, a) ∈ R, for every a ∈ A,\n\n(ii)\nsymmetric, if (a1, a2) ∈ R implies that (a2, a1) ∈ R, for all a1, a2 ∈ A.\n\n(iii)\ntransitive, if (a1, a2) ∈ R and (a2, a3) ∈ R implies that (a1, a3) ∈ R, for all a1, a2,\na3 ∈ A.\n\nReprint 2025-26",
+      "definitions": [
+        {
+          "name": "Definition 1",
+          "content": "A relation R in a set A is called empty relation, if no element of A is related to any element of A, i.e., R = φ ⊂ A × A."
+        },
+        {
+          "name": "Definition 2",
+          "content": "A relation R in a set A is called universal relation, if each element of A is related to every element of A, i.e., R = A × A."
+        },
+        {
+          "name": "Definition 3",
+          "content": "A relation R in a set A is called (i) reflexive, if (a, a) ∈ R, for every a ∈ A, (ii) symmetric, if (a1, a2) ∈ R implies that (a2, a1) ∈ R, for all a1, a2 ∈ A. (iii) transitive, if (a1, a2) ∈ R and (a2, a3) ∈ R implies that (a1, a3) ∈ R, for all a1, a2, a3 ∈ A."
+        }
+      ],
+      "examples": [
+        {
+          "number": "Example 1",
+          "content": "Let A be the set of all students of a boys school. Show that the relation R in A given by R = {(a, b) : a is sister of b} is the empty relation and R′ = {(a, b) : the difference between heights of a and b is less than 3 meters} is the universal relation.\n\nSolution Since the school is boys school, no student of the school can be sister of any student of the school. Hence, R = φ, showing that R is the empty relation. It is also obvious that the difference between heights of any two students of the school has to be less than 3 meters. This shows that R′ = A × A is the universal relation."
+        }
+      ],
+      "questions": [],
+      "figures": []
+    },
+    {
+      "page_number": 3,
+      "text": "RELATIONS AND FUNCTIONS\n5\n\nSolution Given any element a in A, both a and a must be either odd or even, so\nthat (a, a) ∈ R. Further, (a, b) ∈ R ⇒ both a and b must be either odd or even\n⇒ (b, a) ∈ R. Similarly, (a, b) ∈ R and (b, c) ∈ R ⇒ all elements a, b, c, must be\neither even or odd simultaneously ⇒ (a, c) ∈ R. Hence, R is an equivalence relation.\nFurther, all the elements of {1, 3, 5, 7} are related to each other, as all the elements\nof this subset are odd. Similarly, all the elements of the subset {2, 4, 6} are related to\neach other, as all of them are even. Also, no element of the subset {1, 3, 5, 7} can be\nrelated to any element of {2, 4, 6}, as elements of {1, 3, 5, 7} are odd, while elements\nof {2, 4, 6} are even.\n\nEXERCISE 1.1\n\n1.\nDetermine whether each of the following relations are reflexive, symmetric and\ntransitive:\n(i) Relation R in the set A = {1, 2, 3, ..., 13, 14} defined as\nR = {(x, y) : 3x – y = 0}\n(ii) Relation R in the set N of natural numbers defined as\nR = {(x, y) : y = x + 5 and x < 4}\n(iii) Relation R in the set A = {1, 2, 3, 4, 5, 6} as\nR = {(x, y) : y is divisible by x}\n(iv) Relation R in the set Z of all integers defined as\nR = {(x, y) : x – y is an integer}\n(v) Relation R in the set A of human beings in a town at a particular time given by\n(a)  R = {(x, y) : x and y work at the same place}\n(b)  R = {(x, y) : x and y live in the same locality}\n(c)  R = {(x, y) : x is exactly 7 cm taller than y}\n(d)  R = {(x, y) : x is wife of y}\n(e)  R = {(x, y) : x is father of y}\n\n2.\nShow that the relation R in the set R of real numbers, defined as\nR = {(a, b) : a ≤ b2} is neither reflexive nor symmetric nor transitive.\n3.\nCheck whether the relation R defined in the set {1, 2, 3, 4, 5, 6} as\nR = {(a, b) : b = a + 1} is reflexive, symmetric or transitive.\n4.\nShow that the relation R in R defined as R = {(a, b) : a ≤ b}, is reflexive and\ntransitive but not symmetric.\n5.\nCheck whether the relation R in R defined by R = {(a, b) : a ≤ b3} is reflexive,\nsymmetric or transitive.\n\nReprint 2025-26",
+      "definitions": [],
+      "examples": [],
+      "questions": [
+        {
+          "exercise": "1.1",
+          "number": 1,
+          "content": "Determine whether each of the following relations are reflexive, symmetric and transitive: (i) Relation R in the set A = {1, 2, 3, ..., 13, 14} defined as R = {(x, y) : 3x – y = 0} (ii) Relation R in the set N of natural numbers defined as R = {(x, y) : y = x + 5 and x < 4} (iii) Relation R in the set A = {1, 2, 3, 4, 5, 6} as R = {(x, y) : y is divisible by x} (iv) Relation R in the set Z of all integers defined as R = {(x, y) : x – y is an integer} (v) Relation R in the set A of human beings in a town at a particular time given by (a) R = {(x, y) : x and y work at the same place} (b) R = {(x, y) : x and y live in the same locality} (c) R = {(x, y) : x is exactly 7 cm taller than y} (d) R = {(x, y) : x is wife of y} (e) R = {(x, y) : x is father of y}"
+        },
+        {
+          "exercise": "1.1",
+          "number": 2,
+          "content": "Show that the relation R in the set R of real numbers, defined as R = {(a, b) : a ≤ b2} is neither reflexive nor symmetric nor transitive."
+        },
+        {
+          "exercise": "1.1",
+          "number": 3,
+          "content": "Check whether the relation R defined in the set {1, 2, 3, 4, 5, 6} as R = {(a, b) : b = a + 1} is reflexive, symmetric or transitive."
+        }
+      ]
+      }
+    
+    ]
+  }
