@@ -1,0 +1,287 @@
+```json
+{
+  "filename": "lemh102.pdf",
+  "total_pages": 16,
+  "title": "Chapter 2: Inverse Trigonometric Functions",
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "### Chapter 2  \n**INVERSE TRIGONOMETRIC FUNCTIONS**  \n\n**Mathematics, in general, is fundamentally the science of self-evident things. — FELIX KLEIN**  \n\n**2.1 Introduction**  \n\nIn Chapter 1, we have studied that the inverse of a function f, denoted by f⁻¹, exists if f is one-one and onto. There are many functions which are not one-one, onto or both and hence we can not talk of their inverses. In Class XI, we studied that trigonometric functions are not one-one and onto over their natural domains and ranges and hence their inverses do not exist. In this chapter, we shall study about the restrictions on domains and ranges of trigonometric functions which ensure the existence of their inverses and observe their behaviour through graphical representations. Besides, some elementary properties will also be discussed.  \n\nThe inverse trigonometric functions play an important role in calculus for they serve to define many integrals. The concepts of inverse trigonometric functions is also used in science and engineering.",
+      "definitions": [],
+      "examples": [],
+      "questions": [],
+      "figures": []
+    },
+    {
+      "page_number": 2,
+      "text": "**2.2 Basic Concepts**  \n\nIn Class XI, we have studied trigonometric functions, which are defined as follows:  \nsine function, i.e., sine : R → [– 1, 1]  \ncosine function, i.e., cos : R → [– 1, 1]  \n\ntangent function, i.e., tan : R – { x : x = (2n + 1) π/2 , n ∈ Z} → R  \n\ncotangent function, i.e., cot : R – { x : x = nπ, n ∈ Z} → R  \n\nsecant function, i.e., sec : R – { x : x = (2n + 1) π/2 , n ∈ Z} → R – (– 1, 1)  \n\ncosecant function, i.e., cosec : R – { x : x = nπ,  n ∈ Z} → R – (– 1, 1)  \n\nWe have also learnt in Chapter 1 that if f : X→Y such that f (x) = y is one-one and onto, then we can define a unique function g : Y→X such that g(y) = x, where x ∈ X and y = f (x), y ∈ Y. Here, the domain of g = range of f and the range of g = domain of f. The function g is called the inverse of f and is denoted by f⁻¹. Further, g is also one-one and onto and inverse of g is f. Thus, g⁻¹ = (f⁻¹)⁻¹ = f. We also have (f⁻¹ o f ) (x) = f⁻¹ (f (x)) = f⁻¹(y) = x and (f o f⁻¹) (y) = f (f⁻¹(y)) = f (x) = y.  \n\nSince the domain of sine function is the set of all real numbers and range is the closed interval [–1, 1]. If we restrict its domain to [–π/2, π/2], then it becomes one-one and onto with range [– 1, 1]. Actually, sine function restricted to any of the intervals [–3π/2, –π/2], [–π/2, π/2], [π/2, 3π/2] etc., is one-one and its range is [–1, 1]. We can, therefore, define the inverse of sine function in each of these intervals. We denote the inverse of sine function by sin⁻¹ (arc sine function). Thus, sin⁻¹ is a function whose domain is [– 1, 1] and range could be any of the intervals [–3π/2, –π/2], [–π/2, π/2] or [π/2, 3π/2], and so on. Corresponding to each such interval, we get a branch of the function sin⁻¹. The branch with range [–π/2, π/2] is called the principal value branch, whereas other intervals as range give different branches of sin⁻¹. When we refer to the function sin⁻¹, we take it as the function whose domain is [–1, 1] and range is [–π/2, π/2]. We write sin⁻¹ : [–1, 1] → [–π/2, π/2].  \n\nFrom the definition of the inverse functions, it follows that sin (sin⁻¹ x) = x if – 1 ≤ x ≤ 1 and sin⁻¹ (sin x) = x if –π/2 ≤ x ≤ π/2. In other words, if y = sin⁻¹ x, then sin y = x.",
+      "definitions": [],
+      "examples": [],
+      "questions": [],
+      "figures": []
+    },
+    {
+      "page_number": 3,
+      "text": "**Remarks**  \n\n(i) We know from Chapter 1, that if y = f(x) is an invertible function, then x = f⁻¹ (y). Thus, the graph of sin⁻¹ function can be obtained from the graph of original function by interchanging x and y axes, i.e., if (a, b) is a point on the graph of sine function, then (b, a) becomes the corresponding point on the graph of inverse of sine function. Thus, the graph of the function y = sin⁻¹ x can be obtained from the graph of y = sin x by interchanging x and y axes. The graphs of y = sin x and y = sin⁻¹ x are as given in Fig 2.1 (i), (ii), (iii). The dark portion of the graph of y = sin⁻¹ x represent the principal value branch.  \n\n(ii) It can be shown that the graph of an inverse function can be obtained from the corresponding graph of original function as a mirror image (i.e., reflection) along the line y = x. This can be visualised by looking the graphs of y = sin x and y = sin⁻¹ x as given in the same axes (Fig 2.1 (iii)).  \n\n**Figure 2.1 (i): Graph of y = sin x**  \n*Explanation:* This graph shows the standard sine function, a periodic wave with period 2π. The x-axis represents the angle in radians, marked from -2π to 2π. The y-axis ranges from -1 to 1. The curve starts at x = -2π, y = 0, rises to a peak at x = -3π/2, y = -1 (wait, no: sine is odd and periodic). Standard points: at x = 0, y = 0; x = π/2, y = 1; x = π, y = 0; x = 3π/2, y = -1; x = 2π, y = 0. It oscillates smoothly between y = -1 and y = 1, with no asymptotes. The graph is continuous and smooth, repeating every 2π.  \n\n**Figure 2.1 (ii): Graph of y = sin⁻¹ x**  \n*Explanation:* This graph shows the inverse sine function (principal branch). The x-axis ranges from -1 to 1 (domain), and the y-axis from -π/2 to π/2 (range). The curve is odd and increasing: it starts at x = -1, y = -π/2; passes through x = 0, y = 0; and ends at x = 1, y = π/2. It is a smooth, concave-down curve in the first quadrant and concave-up in the third (mirrored). The dark portion highlights the principal branch, emphasizing the restricted range.  \n\n**Figure 2.1 (iii): Graphs of y = sin x and y = sin⁻¹ x in the same axes**  \n*Explanation:* This combined graph overlays y = sin x (sine wave, oscillating) and y = sin⁻¹ x (S-shaped curve from (-1, -π/2) to (1, π/2)) on the same coordinate system. It illustrates the reflection property: the graph of sin⁻¹ x is the reflection of sin x over the line y = x (within the restricted domain). Key points like (π/2, 1) on sin x become (1, π/2) on sin⁻¹ x. The sine wave extends beyond [-1,1] on y, but the inverse is limited.",
+      "definitions": [],
+      "examples": [],
+      "questions": [],
+      "figures": [
+        {
+          "name": "Figure 2.1 (i)",
+          "description": "Graph of y = sin x - Standard sine function, periodic wave with period 2π, oscillating between y = -1 and y = 1"
+        },
+        {
+          "name": "Figure 2.1 (ii)",
+          "description": "Graph of y = sin⁻¹ x - Inverse sine function (principal branch) from (-1, -π/2) to (1, π/2)"
+        },
+        {
+          "name": "Figure 2.1 (iii)",
+          "description": "Graphs of y = sin x and y = sin⁻¹ x in same axes showing reflection property over line y = x"
+        }
+      ]
+    },
+    {
+      "page_number": 4,
+      "text": "Like sine function, the cosine function is a function whose domain is the set of all real numbers and range is the set [–1, 1]. If we restrict the domain of cosine function to [0, π], then it becomes one-one and onto with range [–1, 1]. Actually, cosine function restricted to any of the intervals [– π, 0], [0,π], [π, 2π] etc., is bijective with range as [–1, 1]. We can, therefore, define the inverse of cosine function in each of these intervals. We denote the inverse of the cosine function by cos⁻¹ (arc cosine function). Thus, cos⁻¹ is a function whose domain is [–1, 1] and range could be any of the intervals [–π, 0], [0, π], [π, 2π] etc. Corresponding to each such interval, we get a branch of the function cos⁻¹. The branch with range [0, π] is called the principal value branch of the function cos⁻¹. We write cos⁻¹ : [–1, 1] → [0, π].  \n\nThe graph of the function given by y = cos⁻¹ x can be drawn in the same way as discussed about the graph of y = sin⁻¹ x. The graphs of y = cos x and y = cos⁻¹x are given in Fig 2.2 (i) and (ii).  \n\n**Figure 2.2 (i): Graph of y = cos x**  \n*Explanation:* This graph shows the standard cosine function, a periodic wave with period 2π, phase-shifted from sine. The x-axis is in radians from -2π to 2π, y-axis from -1 to 1. The curve starts at x = -2π, y = 1; descends to x = -3π/2, y = 0; to x = -π, y = -1; to x = -π/2, y = 0; to x = 0, y = 1; and continues oscillating. It is even, continuous, and smooth, with maxima at 1 and minima at -1.  \n\n**Figure 2.2 (ii): Graph of y = cos⁻¹ x**  \n*Explanation:* This graph shows the inverse cosine function (principal branch). The x-axis ranges from -1 to 1, y-axis from 0 to π. The curve is decreasing: starts at x = -1, y = π; passes through x = 0, y = π/2; ends at x = 1, y = 0. It is smooth and concave up, reflecting the restricted domain of cos x to [0, π].",
+      "definitions": [],
+      "examples": [],
+      "questions": [],
+      "figures": [
+        {
+          "name": "Figure 2.2 (i)",
+          "description": "Graph of y = cos x - Standard cosine function, periodic wave with period 2π, phase-shifted from sine"
+        },
+        {
+          "name": "Figure 2.2 (ii)",
+          "description": "Graph of y = cos⁻¹ x - Inverse cosine function (principal branch) from (-1, π) to (1, 0)"
+        }
+      ]
+    },
+    {
+      "page_number": 5,
+      "text": "Let us now discuss cosec⁻¹x and sec⁻¹x as follows:  \n\nSince, cosec x = 1/sin x, the domain of the cosec function is the set {x : x ∈ R and x ≠ nπ, n ∈ Z} and the range is the set {y : y ∈ R, y ≥ 1 or y ≤ –1} i.e., the set R – (–1, 1). It means that y = cosec x assumes all real values except –1 < y < 1 and is not defined for integral multiple of π. If we restrict the domain of cosec function to [–π/2, π/2] – {0}, then it is one to one and onto with its range as the set R – (– 1, 1). Actually, cosec function restricted to any of the intervals [–3π/2, –π/2] – {–π}, [–π/2, π/2] – {0}, [π/2, 3π/2] – {π} etc., is bijective and its range is the set of all real numbers R – (–1, 1). Thus cosec⁻¹ can be defined as a function whose domain is R – (–1, 1) and range could be any of the intervals [–3π/2, –π/2] – {–π}, [–π/2, π/2] – {0}, [π/2, 3π/2] – {π} etc. The function corresponding to the range [–π/2, π/2] – {0} is called the principal value branch of cosec⁻¹. We thus have principal branch as cosec⁻¹ : R – (–1, 1) → [–π/2, π/2] – {0}.  \n\nThe graphs of y = cosec x and y = cosec⁻¹ x are given in Fig 2.3 (i), (ii).  \n\n**Figure 2.3 (i): Graph of y = cosec x**  \n*Explanation:* This graph shows the cosecant function, which is 1/sin x. The x-axis is in radians, with vertical asymptotes at x = nπ (where sin x = 0). The y-axis extends to ±∞. The curve has U-shaped branches: in (0, π), it decreases from +∞ at x = 0+ to 1 at x = π/2, then to +∞ at x = π–; in (–π, 0), similar but negative. |y| ≥ 1 everywhere defined, periodic with period 2π. Branches are hyperbolic-like.  \n\n**Figure 2.3 (ii): Graph of y = cosec⁻¹ x**  \n*Explanation:* This graph shows the inverse cosecant function (principal branch). The x-axis ranges from –∞ to –1 and 1 to ∞, y-axis from –π/2 to π/2 excluding 0. The curve is odd: for x > 1, y decreases from π/2– to 0+; for x < –1, y increases from –π/2+ to 0–. It approaches y = 0 as |x| → ∞, and y = ±π/2 as x → ±1. Smooth and continuous in its domain.",
+      "definitions": [],
+      "examples": [],
+      "questions": [],
+      "figures": [
+        {
+          "name": "Figure 2.3 (i)",
+          "description": "Graph of y = cosec x - Cosecant function with vertical asymptotes at x = nπ, U-shaped branches"
+        },
+        {
+          "name": "Figure 2.3 (ii)",
+          "description": "Graph of y = cosec⁻¹ x - Inverse cosecant function (principal branch) defined for |x| ≥ 1"
+        }
+      ]
+    },
+    {
+      "page_number": 6,
+      "text": "Also, since sec x = 1/cos x, the domain of y = sec x is the set R – {x : x = (2n + 1) π/2, n ∈ Z} and range is the set R – (–1, 1). It means that sec (secant function) assumes all real values except –1 < y < 1 and is not defined for odd multiples of π/2. If we restrict the domain of secant function to [0, π] – {π/2}, then it is one-one and onto with its range as the set R – (–1, 1). Actually, secant function restricted to any of the intervals [–π, 0] – {–π/2}, [0, π] – {π/2}, [π, 2π] – {3π/2} etc., is bijective and its range is R – {–1, 1}. Thus sec⁻¹ can be defined as a function whose domain is R– (–1, 1) and range could be any of the intervals [– π, 0] – {–π/2}, [0, π] – {π/2}, [π, 2π] – {3π/2} etc. Corresponding to each of these intervals, we get different branches of the function sec⁻¹. The branch with range [0, π] – {π/2} is called the principal value branch of the function sec⁻¹. We thus have sec⁻¹ : R – (–1,1) → [0, π] – {π/2}.  \n\nThe graphs of the functions y = sec x and y = sec⁻¹ x are given in Fig 2.4 (i), (ii).  \n\n**Figure 2.4 (i): Graph of y = sec x**  \n*Explanation:* This graph shows the secant function, 1/cos x. The x-axis has vertical asymptotes at x = (2n+1)π/2. The y-axis extends to ±∞. Branches are U-shaped: in (–π/2, π/2), it decreases from –∞ to 1 at x=0 then to +∞; shifted versions in other intervals. |y| ≥ 1, periodic with 2π. Similar to cosec but phase-shifted by π/2.  \n\n**Figure 2.4 (ii): Graph of y = sec⁻¹ x**  \n*Explanation:* This graph shows the inverse secant function (principal branch). The x-axis from –∞ to –1 and 1 to ∞, y-axis from 0 to π excluding π/2. For x > 1, y increases from 0+ to π/2–; for x < –1, y decreases from π– to π/2+. Approaches y = π/2 as |x| → ∞, y = 0 or π as x → ±1. Even in behavior but defined for |x| ≥1.",
+      "definitions": [],
+      "examples": [],
+      "questions": [],
+      "figures": [
+        {
+          "name": "Figure 2.4 (i)",
+          "description": "Graph of y = sec x - Secant function with vertical asymptotes at odd multiples of π/2"
+        },
+        {
+          "name": "Figure 2.4 (ii)",
+          "description": "Graph of y = sec⁻¹ x - Inverse secant function (principal branch) defined for |x| ≥ 1"
+        }
+      ]
+    },
+    {
+      "page_number": 7,
+      "text": "Finally, we now discuss tan⁻¹ and cot⁻¹.  \n\nWe know that the domain of the tan function (tangent function) is the set {x : x ∈ R and x ≠ (2n +1) π/2, n ∈ Z} and the range is R. It means that tan function is not defined for odd multiples of π/2. If we restrict the domain of tangent function to (–π/2, π/2), then it is one-one and onto with its range as R. Actually, tangent function restricted to any of the intervals (–3π/2, –π/2), (–π/2, π/2), (π/2, 3π/2) etc., is bijective and its range is R. Thus tan⁻¹ can be defined as a function whose domain is R and range could be any of the intervals (–3π/2, –π/2), (–π/2, π/2), (π/2, 3π/2) and so on. These intervals give different branches of the function tan⁻¹. The branch with range (–π/2, π/2) is called the principal value branch of the function tan⁻¹. We thus have tan⁻¹ : R → (–π/2, π/2).  \n\nThe graphs of the function y = tan x and y = tan⁻¹x are given in Fig 2.5 (i), (ii).  \n\n**Figure 2.5 (i): Graph of y = tan x**  \n*Explanation:* This graph shows the tangent function. The x-axis has vertical asymptotes at x = (2n+1)π/2. The y-axis to ±∞. In each interval like (–π/2, π/2), the curve increases from –∞ to +∞, passing through (0,0). Odd function, periodic with π. Steep near asymptotes, linear near origins.  \n\n**Figure 2.5 (ii): Graph of y = tan⁻¹ x**  \n*Explanation:* This graph shows the inverse tangent function. The x-axis from –∞ to ∞, y-axis from –π/2 to π/2. The curve is odd and increasing: from y = –π/2 (as x → –∞) through (0,0) to y = π/2 (as x → ∞). S-shaped, approaches horizontal asymptotes at ±π/2. Smooth and continuous.",
+      "definitions": [],
+      "examples": [],
+      "questions": [],
+      "figures": [
+        {
+          "name": "Figure 2.5 (i)",
+          "description": "Graph of y = tan x - Tangent function with vertical asymptotes at odd multiples of π/2"
+        },
+        {
+          "name": "Figure 2.5 (ii)",
+          "description": "Graph of y = tan⁻¹ x - Inverse tangent function from (-∞, -π/2) to (∞, π/2)"
+        }
+      ]
+    },
+    {
+      "page_number": 8,
+      "text": "We know that domain of the cot function (cotangent function) is the set {x : x ∈ R and x ≠ nπ, n ∈ Z} and range is R. It means that cotangent function is not defined for integral multiples of π. If we restrict the domain of cotangent function to (0, π), then it is bijective with and its range as R. In fact, cotangent function restricted to any of the intervals (–π, 0), (0, π), (π, 2π) etc., is bijective and its range is R. Thus cot⁻¹ can be defined as a function whose domain is the R and range as any of the intervals (–π, 0), (0, π), (π, 2π) etc. These intervals give different branches of the function cot⁻¹. The function with range (0, π) is called the principal value branch of the function cot⁻¹. We thus have cot⁻¹ : R → (0, π).  \n\nThe graphs of y = cot x and y = cot⁻¹x are given in Fig 2.6 (i), (ii).  \n\n**Figure 2.6 (i): Graph of y = cot x**  \n*Explanation:* This graph shows the cotangent function, 1/tan x. The x-axis has vertical asymptotes at x = nπ. The y-axis to ±∞. In each interval like (0, π), the curve decreases from +∞ to –∞, passing through (π/2, 0). Periodic with π, odd. Steep near asymptotes.  \n\n**Figure 2.6 (ii): Graph of y = cot⁻¹ x**  \n*Explanation:* This graph shows the inverse cotangent function. The x-axis from –∞ to ∞, y-axis from 0 to π. The curve is decreasing: from y = π (as x → –∞) through (0, π/2) to y = 0 (as x → ∞). Approaches horizontal asymptotes at 0 and π. Smooth and continuous.",
+      "definitions": [],
+      "examples": [],
+      "questions": [],
+      "figures": [
+        {
+          "name": "Figure 2.6 (i)",
+          "description": "Graph of y = cot x - Cotangent function with vertical asymptotes at x = nπ"
+        },
+        {
+          "name": "Figure 2.6 (ii)",
+          "description": "Graph of y = cot⁻¹ x - Inverse cotangent function from (-∞, π) to (∞, 0)"
+        }
+      ]
+    },
+    {
+      "page_number": 9,
+      "text": "The following table gives the inverse trigonometric function (principal value branches) along with their domains and ranges.  \n\n| Function   | Domain       | Range (Principal Value Branches) |  \n|------------|--------------|----------------------------------|  \n| sin⁻¹     | [–1, 1]     | [–π/2, π/2]                     |  \n| cos⁻¹     | [–1, 1]     | [0, π]                          |  \n| cosec⁻¹   | R – (–1,1)  | [–π/2, π/2] – {0}               |  \n| sec⁻¹     | R – (–1, 1) | [0, π] – {π/2}                  |  \n| tan⁻¹     | R           | (–π/2, π/2)                     |  \n| cot⁻¹     | R           | (0, π)                          |  \n\n**ANote**  \n\n1. sin⁻¹x should not be confused with (sin x)⁻¹. In fact (sin x)⁻¹ = 1/sin x and similarly for other trigonometric functions.  \n2. Whenever no branch of an inverse trigonometric functions is mentioned, we mean the principal value branch of that function.  \n3. The value of an inverse trigonometric functions which lies in the range of principal branch is called the principal value of that inverse trigonometric functions.  \n\nWe now consider some examples:  \n\n**Example 1** Find the principal value of sin⁻¹ (1/2).  \n\n**Solution** Let sin⁻¹ (1/2) = y. Then, sin y = 1/2.  \n\nWe know that the range of the principal value branch of sin⁻¹ is [–π/2, π/2] and sin(π/4) = 1/2. Therefore, principal value of sin⁻¹ (1/2) is π/4.  \n\n**Example 2** Find the principal value of cot⁻¹ (–1/√3).  \n\n**Solution** Let cot⁻¹ (–1/√3) = y. Then, cot y = –1/√3 = – cot(π/3) = cot(π – π/3) = cot(2π/3).  \n\nWe know that the range of principal value branch of cot⁻¹ is (0, π) and cot(2π/3) = –1/√3. Hence, principal value of cot⁻¹ (–1/√3) is 2π/3.",
+      "definitions": [],
+      "examples": [
+        {
+          "number": "Example 1",
+          "content": "Find the principal value of sin⁻¹ (1/2).\n\nSolution: Let sin⁻¹ (1/2) = y. Then, sin y = 1/2.\nWe know that the range of the principal value branch of sin⁻¹ is [–π/2, π/2] and sin(π/4) = 1/2. Therefore, principal value of sin⁻¹ (1/2) is π/4."
+        },
+        {
+          "number": "Example 2",
+          "content": "Find the principal value of cot⁻¹ (–1/√3).\n\nSolution: Let cot⁻¹ (–1/√3) = y. Then, cot y = –1/√3 = – cot(π/3) = cot(π – π/3) = cot(2π/3).\nWe know that the range of principal value branch of cot⁻¹ is (0, π) and cot(2π/3) = –1/√3. Hence, principal value of cot⁻¹ (–1/√3) is 2π/3."
+        }
+      ],
+      "questions": [],
+      "figures": []
+    },
+    {
+      "page_number": 10,
+      "text": "**EXERCISE 2.1**  \n\nFind the principal values of the following:  \n\n1. sin⁻¹ (–1/2)  \n2. cos⁻¹ (√3/2)  \n3. cosec⁻¹ (2)  \n4. tan⁻¹ (–√3)  \n5. cos⁻¹ (–1/2)  \n6. tan⁻¹ (–1)  \n7. sec⁻¹ (2/√3)  \n8. cot⁻¹ (√3)  \n9. cos⁻¹ (–1/√2)  \n10. cosec⁻¹ (–√2)  \n\nFind the values of the following:  \n\n11. tan⁻¹(1) + cos⁻¹ (–1/2) + sin⁻¹ (–1/2)  \n12. cos⁻¹ (1/2) + 2 sin⁻¹ (1/2)  \n\n13. If sin⁻¹ x = y, then  \n(A) 0 ≤ y ≤ π  \n(B) –π/2 ≤ y ≤ π/2  \n(C) 0 < y < π  \n(D) –π/2 < y < π/2  \n\n14. tan⁻¹ (√3) – sec⁻¹ (–2) is equal to  \n(A) π  \n(B) –π/3  \n(C) π/3  \n(D) 2π/3",
+      "definitions": [],
+      "examples": [],
+      "questions": [
+        {
+          "exercise": "2.1",
+          "number": "1-10",
+          "content": "Find the principal values of: sin⁻¹ (–1/2), cos⁻¹ (√3/2), cosec⁻¹ (2), tan⁻¹ (–√3), cos⁻¹ (–1/2), tan⁻¹ (–1), sec⁻¹ (2/√3), cot⁻¹ (√3), cos⁻¹ (–1/√2), cosec⁻¹ (–√2)"
+        },
+        {
+          "exercise": "2.1",
+          "number": "11-12",
+          "content": "Find the values of: tan⁻¹(1) + cos⁻¹ (–1/2) + sin⁻¹ (–1/2), cos⁻¹ (1/2) + 2 sin⁻¹ (1/2)"
+        },
+        {
+          "exercise": "2.1",
+          "number": "13",
+          "content": "If sin⁻¹ x = y, then (A) 0 ≤ y ≤ π (B) –π/2 ≤ y ≤ π/2 (C) 0 < y < π (D) –π/2 < y < π/2"
+        },
+        {
+          "exercise": "2.1",
+          "number": "14",
+          "content": "tan⁻¹ (√3) – sec⁻¹ (–2) is equal to (A) π (B) –π/3 (C) π/3 (D) 2π/3"
+        }
+      ],
+      "figures": []
+    },
+    {
+      "page_number": 11,
+      "text": "**2.3 Properties of Inverse Trigonometric Functions**  \n\nIn this section, we shall prove some important properties of inverse trigonometric functions. It may be mentioned here that these results are valid within the principal value branches of the corresponding inverse trigonometric functions and wherever they are defined. Some results may not be valid for all values of the domains of inverse trigonometric functions. In fact, they will be valid only for some values of x for which inverse trigonometric functions are defined. We will not go into the details of these values of x in the domain as this discussion goes beyond the scope of this textbook.  \n\nLet us recall that if y = sin⁻¹x, then x = sin y and if x = sin y, then y = sin⁻¹x. This is equivalent to sin (sin⁻¹ x) = x, x ∈ [– 1, 1] and sin⁻¹ (sin x) = x, x ∈ [–π/2, π/2].  \n\nFor suitable values of domain similar results follow for remaining trigonometric functions.  \n\nWe now consider some examples.  \n\n**Example 3** Show that  \n(i) sin⁻¹ (2x√(1 – x²)) = 2 sin⁻¹ x, –1/√2 ≤ x ≤ 1/√2  \n(ii) sin⁻¹ (2x√(1 – x²)) = 2 cos⁻¹ x, 0 ≤ x ≤ 1/√2  \n\n**Solution**  \n(i) Let x = sin θ. Then sin⁻¹ x = θ. We have sin⁻¹ (2x√(1 – x²)) = sin⁻¹ (2 sin θ cos θ) = sin⁻¹ (sin 2θ) = 2θ = 2 sin⁻¹ x  \n(ii) Take x = cos θ, then proceeding as above, we get, sin⁻¹ (2x√(1 – x²)) = 2 cos⁻¹ x  \n\n**Example 4** Express tan⁻¹ (cos x / (1 – sin x)), –π/2 < x < π/2 in the simplest form.  \n\n**Solution** We write  \ntan⁻¹ (cos x / (1 – sin x)) = tan⁻¹ [(cos x (1 + sin x)) / ((1 – sin x)(1 + sin x))] = tan⁻¹ [(cos x (1 + sin x)) / (1 – sin² x)] = tan⁻¹ [(cos x (1 + sin x)) / cos² x] = tan⁻¹ [(1 + sin x) / cos x] = tan⁻¹ [1/cos x + sin x/cos x] = tan⁻¹ [sec x + tan x].  \nLet θ = tan⁻¹ [sec x + tan x], then tan θ = sec x + tan x. Using identity, we get θ = π/4 + x/2. Thus, tan⁻¹ (cos x / (1 – sin x)) = π/4 + x/2.  \n\n**Example 5** Write cot⁻¹ (1 / √(x² – 1)), x > 1 in the simplest form.  \n\n**Solution** Let x = sec θ, then √(x² – 1) = tan θ. Therefore, cot⁻¹ (1 / √(x² – 1)) = cot⁻¹ (cot θ) = θ = sec⁻¹ x, which is the simplest form.",
+      "definitions": [],
+      "examples": [
+        {
+          "number": "Example 3",
+          "content": "Show that (i) sin⁻¹ (2x√(1 – x²)) = 2 sin⁻¹ x, –1/√2 ≤ x ≤ 1/√2 (ii) sin⁻¹ (2x√(1 – x²)) = 2 cos⁻¹ x, 0 ≤ x ≤ 1/√2\n\nSolution: (i) Let x = sin θ. Then sin⁻¹ x = θ. We have sin⁻¹ (2x√(1 – x²)) = sin⁻¹ (2 sin θ cos θ) = sin⁻¹ (sin 2θ) = 2θ = 2 sin⁻¹ x (ii) Take x = cos θ, then proceeding as above, we get, sin⁻¹ (2x√(1 – x²)) = 2 cos⁻¹ x"
+        },
+        {
+          "number": "Example 4",
+          "content": "Express tan⁻¹ (cos x / (1 – sin x)), –π/2 < x < π/2 in the simplest form.\n\nSolution: tan⁻¹ (cos x / (1 – sin x)) = tan⁻¹ [(cos x (1 + sin x)) / ((1 – sin x)(1 + sin x))] = tan⁻¹ [(cos x (1 + sin x)) / (1 – sin² x)] = tan⁻¹ [(cos x (1 + sin x)) / cos² x] = tan⁻¹ [(1 + sin x) / cos x] = tan⁻¹ [1/cos x + sin x/cos x] = tan⁻¹ [sec x + tan x]. Let θ = tan⁻¹ [sec x + tan x], then tan θ = sec x + tan x. Using identity, we get θ = π/4 + x/2. Thus, tan⁻¹ (cos x / (1 – sin x)) = π/4 + x/2."
+        },
+        {
+          "number": "Example 5",
+          "content": "Write cot⁻¹ (1 / √(x² – 1)), x > 1 in the simplest form.\n\nSolution: Let x = sec θ, then √(x² – 1) = tan θ. Therefore, cot⁻¹ (1 / √(x² – 1)) = cot⁻¹ (cot θ) = θ = sec⁻¹ x, which is the simplest form."
+        }
+      ],
+      "questions": [],
+      "figures": []
+    },
+    {
+      "page_number": 12,
+      "text": "**EXERCISE 2.2**  \n\nProve the following:  \n\n1. 3 sin⁻¹ x = sin⁻¹ (3x – 4x³), x ∈ [–1/2, 1/2]  \n2. 3 cos⁻¹ x = cos⁻¹ (4x³ – 3x), x ∈ [1/2, 1]  \n3. tan⁻¹ (2/11) + tan⁻¹ (7/24) = tan⁻¹ (1/2)  \n4. 2 tan⁻¹ (1/2) + tan⁻¹ (1/7) = tan⁻¹ (31/17)  \n\nWrite the following functions in the simplest form:  \n\n5. tan⁻¹ (√(1 + x²) – 1)/x, x ≠ 0  \n6. tan⁻¹ (1 / √(x² – 1)), x > 1  \n7. tan⁻¹ (√((1 – cos x)/(1 + cos x))), 0 < x < π  \n8. tan⁻¹ (cos x – sin x)/(cos x + sin x), 0 < x < π  \n9. tan⁻¹ (x / √(a² – x²)), |x| < a  \n10. tan⁻¹ (3a²x – x³)/(a³ – 3ax²), a > 0; –a/√3 ≤ x ≤ a/√3  \n\nFind the values of each of the following:  \n\n11. tan⁻¹ [2 cos (2 sin⁻¹ (1/2))]  \n12. cot (tan⁻¹ a + cot⁻¹ a)  \n13. tan (1/2 sin⁻¹ (2x/(1 + x²)) + 1/2 cos⁻¹ ((1 – x²)/(1 + x²))), |x| < 1, x ≠ 0  \n14. If sin (sin⁻¹ (1/5) + cos⁻¹ x) = 1, then find the value of x  \n15. If tan⁻¹ (x – 1)/(x – 2) + tan⁻¹ (x + 1)/(x + 2) = π/4, then find the value of x  \n\nFind the values of each of the expressions in Exercises 16 to 18.  \n\n16. sin⁻¹ (sin (2π/3))  \n17. tan⁻¹ (tan (3π/4))  \n18. tan (sin⁻¹ (3/5) + cot⁻¹ (3/2))  \n19. cos⁻¹ (cos (7π/6)) is equal to  \n(A) 7π/6  \n(B) 5π/6  \n(C) π/3  \n(D) π/6  \n20. sin (π/3 – sin⁻¹ (–1/2)) is equal to  \n(A) 1/2  \n(B) 1/3  \n(C) 1/4  \n(D) 1  \n21. tan⁻¹ √3 – cot⁻¹ (–√3) is equal to  \n(A) π  \n(B) –π/2  \n(C) 0  \n(D) 2√3",
+      "definitions": [],
+      "examples": [],
+      "questions": [
+        {
+          "exercise": "2.2",
+          "number": "1-4",
+          "content": "Prove: 3 sin⁻¹ x = sin⁻¹ (3x – 4x³), x ∈ [–1/2, 1/2]; 3 cos⁻¹ x = cos⁻¹ (4x³ – 3x), x ∈ [1/2, 1]; tan⁻¹ (2/11) + tan⁻¹ (7/24) = tan⁻¹ (1/2); 2 tan⁻¹ (1/2) + tan⁻¹ (1/7) = tan⁻¹ (31/17)"
+        },
+        {
+          "exercise": "2.2",
+          "number": "5-10",
+          "content": "Write in simplest form: tan⁻¹ (√(1 + x²) – 1)/x, x ≠ 0; tan⁻¹ (1 / √(x² – 1)), x > 1; tan⁻¹ (√((1 – cos x)/(1 + cos x))), 0 < x < π; tan⁻¹ (cos x – sin x)/(cos x + sin x), 0 < x < π; tan⁻¹ (x / √(a² – x²)), |x| < a; tan⁻¹ (3a²x – x³)/(a³ – 3ax²), a > 0; –a/√3 ≤ x ≤ a/√3"
+        },
+        {
+          "exercise": "2.2",
+          "number": "11-15",
+          "content": "Find values: tan⁻¹ [2 cos (2 sin⁻¹ (1/2))]; cot (tan⁻¹ a + cot⁻¹ a); tan (1/2 sin⁻¹ (2x/(1 + x²)) + 1/2 cos⁻¹ ((1 – x²)/(1 + x²))), |x| < 1, x ≠ 0; If sin (sin⁻¹ (1/5) + cos⁻¹ x) = 1, find x; If tan⁻¹ (x – 1)/(x – 2) + tan⁻¹ (x + 1)/(x + 2) = π/4, find x"
+        }
+      ],
+      "figures": []
+    },
+    {
+      "page_number": 13,
+      "text": "**Miscellaneous Examples**  \n\n**Example 6** Find the value of sin⁻¹ (sin (3π/5)).  \n\n**Solution** We know that sin⁻¹ (sin x) = x. Therefore, sin⁻¹ (sin (3π/5)) = 3π/5. But 3π/5 ∉ [–π/2, π/2], which is the principal value branch of sin⁻¹ x. However, sin (3π/5) = sin (π – 3π/5) = sin (2π/5) and 2π/5 ∈ [–π/2, π/2]. Therefore, sin⁻¹ (sin (3π/5)) = sin⁻¹ (sin (2π/5)) = 2π/5.  \n\n**Example 7** Show that sin⁻¹ (3/5) – sin⁻¹ (8/17) = cos⁻¹ (84/85).  \n\n**Solution** Let sin⁻¹ (3/5) = x and sin⁻¹ (8/17) = y. Therefore sin x = 3/5 and sin y = 8/17.  \nNow cos x = √(1 – (3/5)²) = 4/5 and cos y = √(1 – (8/17)²) = 15/17.  \nWe have cos (x – y) = cos x cos y + sin x sin y = (4/5)(15/17) + (3/5)(8/17) = 60/85 + 24/85 = 84/85.  \nTherefore x – y = cos⁻¹ (84/85). Hence, sin⁻¹ (3/5) – sin⁻¹ (8/17) = cos⁻¹ (84/85).  \n\n**Example 8** Show that tan⁻¹ (1/2) + tan⁻¹ (2/11) = tan⁻¹ (3/4).  \n\n**Solution** By property 5(i), we have  \nLHS = tan⁻¹ (1/2) + tan⁻¹ (2/11) = tan⁻¹ [(1/2 + 2/11)/(1 – (1/2)(2/11))] = tan⁻¹ [(11 + 4)/22 / (1 – 1/11)] = tan⁻¹ [(15/22) / (10/11)] = tan⁻¹ (15/22 × 11/10) = tan⁻¹ (3/4) = RHS.  \n\n**Example 9** Solve tan⁻¹ 2x + tan⁻¹ 3x = π/4.  \n\n**Solution** We have tan⁻¹ 2x + tan⁻¹ 3x = π/4.  \nOr tan⁻¹ [(2x + 3x)/(1 – (2x)(3x))] = π/4  \ni.e. tan⁻¹ [5x/(1 – 6x²)] = π/4  \nTherefore 5x/(1 – 6x²) = tan π/4 = 1  \nor 5x = 1 – 6x²  \ni.e. 6x² + 5x – 1 = 0  \ni.e. (6x – 1)(x + 1) = 0  \nwhich gives x = 1/6 or x = –1.  \nSince x = –1 does not satisfy the equation, as the LHS becomes negative, x = 1/6 is the only solution of the equation.",
+      "definitions": [],
+      "examples": [
+        {
+          "number": "Example 6",
+          "content": "Find the value of sin⁻¹ (sin (3π/5)).\n\nSolution: We know that sin⁻¹ (sin x) = x. Therefore, sin⁻¹ (sin (3π/5)) = 3π/5. But 3π/5 ∉ [–π/2, π/2], which is the principal value branch of sin⁻¹ x. However, sin (3π/5) = sin (π – 3π/5) = sin (2π/5) and 2π/5 ∈ [–π/2, π/2]. Therefore, sin⁻¹ (sin (3π/5)) = sin⁻¹ (sin (2π/5)) = 2π/5."
+        },
+        {
+          "number": "Example 7",
+          "content": "Show that sin⁻¹ (3/5) – sin⁻¹ (8/17) = cos⁻¹ (84/85).\n\nSolution: Let sin⁻¹ (3/5) = x and sin⁻¹ (8/17) = y. Therefore sin x = 3/5 and sin y = 8/17.\nNow cos x = √(1 – (3/5)²) = 4/5 and cos y = √(1 – (8/17)²) = 15/17.\nWe have cos (x – y) = cos x cos y + sin x sin y = (4/5)(15/17) + (3/5)(8/17) = 60/85 + 24/85 = 84/85.\nTherefore x – y = cos⁻¹ (84/85). Hence, sin⁻¹ (3/5) – sin⁻¹ (8/17) = cos⁻¹ (84/85)."
+        },
+        {
+          "number": "Example 8",
+          "content": "Show that tan⁻¹ (1/2) + tan⁻¹ (2/11) = tan⁻¹ (3/4).\n\nSolution: By property 5(i), we have LHS = tan⁻¹ (1/2) + tan⁻¹ (2/11) = tan⁻¹ [(1/2 + 2/11)/(1 – (1/2)(2/11))] = tan⁻¹ [(11 + 4)/22 / (1 – 1/11)] = tan⁻¹ [(15/22) / (10/11)] = tan⁻¹ (15/22 × 11/10) = tan⁻¹ (3/4) = RHS."
+        },
+        {
+          "number": "Example 9",
+          "content": "Solve tan⁻¹ 2x + tan⁻¹ 3x = π/4.\n\nSolution: We have tan⁻¹ 2x + tan⁻¹ 3x = π/4.\nOr tan⁻¹ [(2x + 3x)/(1 – (2x)(3x))] = π/4 i.e. tan⁻¹ [5x/(1 – 6x²)] = π/4\nTherefore 5x/(1 – 6x²) = tan π/4 = 1 or 5x = 1 – 6x² i.e. 6x² + 5x – 1 = 0 i.e. (6x – 1)(x + 1) = 0 which gives x = 1/6 or x = –1.\nSince x = –1 does not satisfy the equation, as the LHS becomes negative, x = 1/6 is the only solution of the equation."
+        }
+      ],
+      "questions": [],
+      "figures": []
+    },
+    {
+      "page_number": 14,
+      "text": "**Miscellaneous Exercise on Chapter 2**  \n\nFind the value of the following:  \n\n1. cos⁻¹ (cos (13π/6))  \n2. tan⁻¹ (tan (7π/6))  \n\nProve that  \n\n3. 2 sin⁻¹ (3/5) = tan⁻¹ (24/7)  \n4. sin⁻¹ (8/17) + sin⁻¹ (3/5) = tan⁻¹ (77/36)  \n5. cos⁻¹ (4/5) + cos⁻¹ (12/13) = cos⁻¹ (33/65)  \n6. cos⁻¹ (12/13) + sin⁻¹ (3/5) = sin⁻¹ (56/65)  \n7. tan⁻¹ (63/16) = sin⁻¹ (5/13) + cos⁻¹ (3/5)  \n8. tan⁻¹ (1/5) + tan⁻¹ (1/7) + tan⁻¹ (1/3) + tan⁻¹ (1/8) = π/4  \n\nSolve the following equations:  \n\n9. 2 tan⁻¹ (cos x) = tan⁻¹ (2 cosec x)  \n10. tan⁻¹ ((1 – x)/(1 + x)) = 1/2 tan⁻¹ x, (x > 0)  \n11. sin (tan⁻¹ x), |x| < 1 is equal to  \n(A) x / √(1 – x²)  \n(B) 1 / √(1 – x²)  \n(C) 1 / √(1 + x²)  \n(D) x / √(1 + x²)  \n12. sin⁻¹ (1 – x) – 2 sin⁻¹ x = π/2, then x is equal to  \n(A) 0, 1/2  \n(B) 1, 1/2  \n(C) 0  \n(D) 1/2  \n13. tan⁻¹ (x/y) – tan⁻¹ ((x – y)/(x + y)) is equal to  \n(A) π/2  \n(B) π/3  \n(C) π/4  \n(D) –3π/4  \n\n**Summary**  \n\n- The domains and ranges (principal value branches) of inverse trigonometric functions are given in the following table:  \n\n| Functions   | Domain       | Range (Principal Value) |  \n|-------------|--------------|--------------------------|  \n| sin⁻¹      | [–1, 1]     | [–π/2, π/2]             |  \n| cos⁻¹      | [–1, 1]     | [0, π]                  |  \n| cosec⁻¹    | R – (–1, 1) | [–π/2, π/2] – {0}       |  \n| sec⁻¹      | R – (–1, 1) | [0, π] – {π/2}          |  \n| tan⁻¹      | R           | (–π/2, π/2)             |  \n| cot⁻¹      | R           | (0, π)                  |  \n\n- sin⁻¹x should not be confused with (sin x)⁻¹. In fact (sin x)⁻¹ = 1/sin x and similarly for other trigonometric functions.  \n- The value of an inverse trigonometric function which lies in its principal value branch is called the principal value of that inverse trigonometric function.  \n\n**Historical Note**  \n\nThe study of trigonometry was first started in India. The ancient Indian Mathematicians, Aryabhatta (476A.D.), Brahmagupta (598 A.D.), Bhaskara I (600 A.D.) and Bhaskara II (1114 A.D.) got important results of trigonometry. All this knowledge went from India to Arabia and then from there to Europe. The Greeks had also started the study of trigonometry but their approach was so clumsy that when the Indian approach became known, it was immediately adopted throughout the world.  \n\nIn India, the predecessor of the modern trigonometric functions, known as the sine of an angle, and the introduction of the sine function represents one of the main contribution of the siddhantas (Sanskrit astronomical works) to mathematics.  \n\nBhaskara I (about 600 A.D.) gave formulae to find the values of sine functions for angles more than 90°. A sixteenth century Malayalam work Yuktibhasa contains a proof for the expansion of sin (A + B). Exact expression for sines or cosines of 18°, 36°, 54°, 72°, etc., were given by Bhaskara II.  \n\nThe symbols sin⁻¹ x, cos⁻¹ x, etc., for arc sin x, arc cos x, etc., were suggested by the astronomer Sir John F.W. Hersehel (1813). The name of Thales (about 600 B.C.) is invariably associated with height and distance problems. He is credited with the determination of the height of a great pyramid in Egypt by measuring shadows of the pyramid and an auxiliary staff (or gnomon) of known height, and comparing the ratios:  \nH/S = h/s  \nthat is, H = h × S/s. This is known as the principle of similarity. The Greeks were not aware of this and used the 'method of shadows' which was essentially the same.  \n\nIn the sixteenth century, the method of triangulation was perfected and was used in land surveying. The modern approach to trigonometry deals with the study of trigonometric functions as functions of real numbers.",
+      "definitions": [],
+      "examples": [],
+      "questions": [
+        {
+          "exercise": "Miscellaneous",
+          "number": "1-2",
+          "content": "Find the value of: cos⁻¹ (cos (13π/6)), tan⁻¹ (tan (7π/6))"
+        },
+        {
+          "exercise": "Miscellaneous",
+          "number": "3-8",
+          "content": "Prove: 2 sin⁻¹ (3/5) = tan⁻¹ (24/7); sin⁻¹ (8/17) + sin⁻¹ (3/5) = tan⁻¹ (77/36); cos⁻¹ (4/5) + cos⁻¹ (12/13) = cos⁻¹ (33/65); cos⁻¹ (12/13) + sin⁻¹ (3/5) = sin⁻¹ (56/65); tan⁻¹ (63/16) = sin⁻¹ (5/13) + cos⁻¹ (3/5); tan⁻¹ (1/5) + tan⁻¹ (1/7) + tan⁻¹ (1/3) + tan⁻¹ (1/8) = π/4"
+        },
+        {
+          "exercise": "Miscellaneous",
+          "number": "9-10",
+          "content": "Solve: 2 tan⁻¹ (cos x) = tan⁻¹ (2 cosec x); tan⁻¹ ((1 – x)/(1 + x)) = 1/2 tan⁻¹ x, (x > 0)"
+        }
+      ],
+      "figures": []
+    },
+    {
+      "page_number": 15,
+      "text": "**ANSWERS**  \n\n**Exercise 2.1**  \n\n1. –π/6  \n2. π/6  \n3. π/6  \n4. –π/3  \n5. 2π/3  \n6. –π/4  \n7. π/6  \n8. π/6  \n9. 3π/4  \n10. –π/4  \n11. π/2  \n12. π/2  \n13. (B)  \n14. (B)  \n\n**Exercise 2.2**  \n\n5. 1/2 tan⁻¹ x  \n6. sec⁻¹ x  \n7. x/2  \n8. π/4 – x  \n9. sin⁻¹ (x/a)  \n10. 3 tan⁻¹ (x/a)  \n11. π/4  \n12. 0  \n13. 1  \n14. 1/5  \n15. ± 1/√2  \n16. π/3  \n17. –π/4  \n18. 17/6  \n19. (B)  \n20. (D)  \n21. (B)  \n\n**Miscellaneous Exercise**  \n\n1. π/6  \n2. π/6  \n9. π/4  \n10. 1  \n11. (D)  \n12. (C)  \n13. (C)",
+      "definitions": [],
+      "examples": [],
+      "questions": [],
+      "figures": []
+    },
+    {
+      "page_number": 16,
+      "text": "**A Note to the Reader**  \n\nInverse trigonometric functions are also termed as 'arc functions'. For example,  \n- sin⁻¹ x can be interpreted as the length of the arc whose sine is x  \n- cos⁻¹ x can be interpreted as the length of the arc whose cosine is x, and so on  \n\nThese functions find extensive application in calculus, particularly in integration of functions involving trigonometric expressions. The properties discussed in this chapter will be particularly useful when studying techniques of integration in higher mathematics.",
+      "definitions": [],
+      "examples": [],
+      "questions": [],
+      "figures": []
+    }
+  ]
+}
+```
